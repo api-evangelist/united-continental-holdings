@@ -1,7 +1,11 @@
 aid: united-continental-holdings
-url: https://raw.githubusercontent.com/api-evangelist/united-continental-holdings/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/united-continental-holdings/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.united-continental-holdings.com
+description: >-
+  United Continental Holdings (now United Airlines Holdings) is the parent company
+  of United Airlines, one of the largest airlines in the world.
