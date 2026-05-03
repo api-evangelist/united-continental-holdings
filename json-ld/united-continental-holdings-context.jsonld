@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "uch": "https://schema.unitedholdings.com/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Corporation": {
+      "@id": "schema:Corporation",
+      "@type": "@id"
+    },
+    "HoldingCompany": {
+      "@id": "uch:HoldingCompany",
+      "@type": "@id",
+      "subClassOf": "schema:Corporation"
+    },
+
+    "name": { "@id": "schema:name", "@type": "xsd:string" },
+    "legalName": { "@id": "schema:legalName", "@type": "xsd:string" },
+    "url": { "@id": "schema:url", "@type": "@id" },
+    "tickerSymbol": { "@id": "schema:tickerSymbol", "@type": "xsd:string" },
+    "foundingDate": { "@id": "schema:foundingDate", "@type": "xsd:date" },
+    "numberOfEmployees": { "@id": "schema:numberOfEmployees", "@type": "xsd:integer" },
+    "parentOrganization": { "@id": "schema:parentOrganization", "@type": "@id" },
+    "subsidiary": { "@id": "schema:subOrganization", "@type": "@id", "@container": "@set" },
+    "industry": { "@id": "uch:industry", "@type": "xsd:string" }
+  }
+}

@@ -1,0 +1,37 @@
+vocabulary:
+  name: United Continental Holdings Vocabulary
+  description: Domain vocabulary for United Continental Holdings, the parent holding company of United Airlines.
+  version: 1.0.0
+  created: '2026-05-03'
+  modified: '2026-05-03'
+
+terms:
+  - term: HoldingCompany
+    label: Holding Company
+    definition: A parent company that owns controlling interests in subsidiary corporations without directly operating their businesses.
+    domain: Corporate Structure
+
+  - term: UnitedAirlinesHoldings
+    label: United Airlines Holdings
+    definition: The current name (since 2019) of the parent company formerly known as United Continental Holdings. Ticker symbol UAL on NASDAQ.
+    domain: Corporate Identity
+
+  - term: UAL
+    label: UAL
+    definition: NASDAQ ticker symbol for United Airlines Holdings, Inc. (formerly United Continental Holdings).
+    domain: Finance
+
+  - term: Subsidiary
+    label: Subsidiary
+    definition: A company owned or controlled by a parent holding company. United Airlines, Inc. is the primary operating subsidiary of United Airlines Holdings.
+    domain: Corporate Structure
+
+  - term: MergerOfEquals
+    label: Merger of Equals
+    definition: The 2010 merger between United Airlines and Continental Airlines that formed United Continental Holdings, creating one of the world's largest airlines.
+    domain: History
+
+  - term: InvestorRelations
+    label: Investor Relations
+    definition: Department managing communication between the company and financial stakeholders including shareholders, analysts, and regulatory bodies.
+    domain: Finance
