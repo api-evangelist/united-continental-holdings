@@ -17,6 +17,8 @@ tags:
   - Fortune 100
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/united-continental-holdings-domain-security.yml
   - type: Website
     url: https://ir.united.com
   - type: Investor Relations
