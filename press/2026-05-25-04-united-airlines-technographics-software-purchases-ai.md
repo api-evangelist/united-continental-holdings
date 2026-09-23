@@ -1,7 +1,9 @@
 ---
 title: United Airlines Technographics, Software Purchases, AI ...
 url: https://www.appsruntheworld.com/customers-database/customers/view/united-continental-holdings-inc-united-states
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"United Continental Holdings" press release artificial intelligence'
 position: 4
 source: serpapi-google
